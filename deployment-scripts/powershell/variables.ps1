@@ -7,7 +7,7 @@ function Get-RandomString {
 
 $randomString = Get-RandomString
 
-$subscriptionId = ""
+$subscriptionId = "94e31be9-876f-4122-b44f-f32b3a8198fd"
 $resourceGroupName = "ai-translator-accelerator-rg-$randomString"
 $location = "uksouth"
 $storageAccountName = "azaitranslator$randomString" # Must be between 3 and 24 characters, only lower-case letters and numbers
@@ -29,14 +29,14 @@ $chatCompletionsModelName = "gpt-35-turbo" # Adjust as needed
 $chatCompletionsDeploymentName = "az-chat-$randomString"
 
 # Static Web App variables
-$repositoryUrl = "https://github.com/GITHUB_USER/azure-ai-translator-accelerators"
+$repositoryUrl = "https://github.com/dani-salman/azure-ai-translator-accelerators"
 $branchName = "main"
 $webAppFolder = "document-translate-web"
-$accessToken = "" # Replace this with your GitHub access token
+$accessToken = "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" # Replace this with your GitHub access token
 $staticWebAppName = "ai-translator-static-webapp-$randomString"
 $staticSitesRegion = "westeurope" # Adjust as needed
 
 # APIM variables
 $ApiManagementName = "translator-apim-$randomString"
-$PublisherEmail = "your-email@example.com"
-$PublisherName = "Your Company Name"
+$PublisherEmail = "dani.salman@tpximpact.com"
+$PublisherName = "TPXImpact"
