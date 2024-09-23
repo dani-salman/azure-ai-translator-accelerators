@@ -5,7 +5,7 @@ Module for handling environment variables and logging their values.
 import os
 import logging
 
-# Configure logging
+# Configure logging test
 logging.basicConfig(
     level=logging.DEBUG,
     encoding="utf-8",
